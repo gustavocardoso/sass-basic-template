@@ -1,0 +1,17 @@
+{
+  "name": "sass-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node_modules/node-sass/bin/node-sass sass/main.scss css/main.css -w",
+    "live": "node_modules/live-server/live-server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "node-sass": "^4.11.0"
+  }
+}
